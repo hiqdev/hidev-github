@@ -1,5 +1,5 @@
 {
-    "name": "hiqdev/hidev-license",
+    "name": "hiqdev/hidev-github",
     "type": "yii2-extension",
     "description": "GitHub plugin for HiDev",
     "keywords": [

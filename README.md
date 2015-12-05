@@ -3,8 +3,8 @@ HiDev GitHUb
 
 **GitHub plugin for HiDev**
 
-[![Latest Stable Version](//poser.pugx.org/hiqdev/hidev-license/v/stable)](//packagist.org/packages/hiqdev/hidev-license)
-[![Total Downloads](//poser.pugx.org/hiqdev/hidev-license/downloads)](//packagist.org/packages/hiqdev/hidev-license)
+[![Latest Stable Version](//poser.pugx.org/hiqdev/hidev-github/v/stable)](//packagist.org/packages/hiqdev/hidev-github)
+[![Total Downloads](//poser.pugx.org/hiqdev/hidev-github/downloads)](//packagist.org/packages/hiqdev/hidev-github)
 [![Build Status](//img.shields.io/travis/hiqdev/hidev-github.svg)](http://travis-ci.org/hiqdev/hidev-github)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
