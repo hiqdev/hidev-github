@@ -1,0 +1,25 @@
+package:
+    type:           library
+    name:           hidev-github
+    namespace:      hidev\github
+    headline:       HiDev GitHUb
+    title:          GitHub plugin for HiDev
+    keywords:       github, hidev, plugin
+    year:           2015
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+        This plugin enables GitHub support for HiDev.
+
+        Provides:
+
+        - vendor/package different from main vendor/package
+        - badges
+
+require:
+    hiqdev/hidev-php:           "*@dev"
+    hiqdev/hidev-hiqdev:        "*@dev"
+    hiqdev/hidev-license:       "*@dev"
+    hiqdev/hidev-phpunit:       "*@dev"
+    hiqdev/hidev-travis-ci:     "*@dev"
+    hiqdev/hidev-codeception:   "*@dev"
+    hiqdev/hidev-php-cs-fixer:  "*@dev"
