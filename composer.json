@@ -47,8 +47,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hidev\\github\\": "src",
-            "hidev\\license\\": "src"
+            "hidev\\github\\": "src"
         }
     }
 }
