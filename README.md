@@ -14,6 +14,7 @@ Provides:
 
 - vendor/package different from main vendor/package
 - badges
+- create/update repository on GitHub (to be done)
 
 ## Installation
 
