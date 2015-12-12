@@ -1,5 +1,7 @@
-HiDev GitHUb
+DEPRECATED HiDev GitHUb
 ============
+
+Moved to basic functional
 
 **GitHub plugin for HiDev**
 
