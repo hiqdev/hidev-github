@@ -9,7 +9,7 @@
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\license\goals;
+namespace hidev\github\goals;
 
 /**
  * Goal for GitHub.
@@ -18,7 +18,10 @@ class GitHubGoal extends \hidev\goals\DefaultGoal
 {
     public function setName($value)
     {
-        $this->setItem('name', $value);
+        list($vendor, $package) = explode('/', $value, 2);
+        $this->setItem('name',    $value);
+        $this->setItem('vendor',  $vendor ?: $package);
+        $this->setItem('package', $package ?: $vendor);
     }
 
     public function getPackage()
@@ -29,5 +32,8 @@ class GitHubGoal extends \hidev\goals\DefaultGoal
     public function getVendor()
     {
         return $this->getItem('vendor') ?: $this->vendor->name;
+    }
+    public function actionCreate()
+    {
     }
 }
